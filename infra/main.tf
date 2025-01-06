@@ -44,7 +44,7 @@ module "lb_target_group" {
   ec2_instance_id          = module.ec2.dev_proj_1_ec2_instance_id
 }
 
-module "alb" {
+/*module "alb" {
   source                    = "./load-balancer"
   lb_name                   = "dev-proj-1-alb"
   is_external               = false
@@ -85,4 +85,4 @@ module "rds_db_instance" {
   mysql_username       = "dbuser"
   mysql_password       = "dbpassword"
   mysql_dbname         = "devprojdb"
-}
+}*/
