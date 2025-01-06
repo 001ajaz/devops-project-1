@@ -11,6 +11,6 @@ eu_availability_zone = ["eu-central-1a", "eu-central-1b"]
 public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIESB2OK8iu41PEWZrOoebtS3rRFutRuZblAMO/M/eaV4 root@Ajaz"
 ec2_ami_id     = "ami-06dd92ecc74fdfb36"
 
-ec2_user_data_install_apache = ""
+ec2_user_data_install_apache = "./template/ec2_install_apache.sh"
 
 domain_name = "jhooq.org"
